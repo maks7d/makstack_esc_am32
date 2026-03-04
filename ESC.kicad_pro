@@ -420,6 +420,10 @@
     [
       "79e57dce-ad81-4bc4-9dd0-d4c46af8a19f",
       "Power"
+    ],
+    [
+      "1866d80e-5f55-402a-bd05-60ea8bd3ca63",
+      "Motor"
     ]
   ],
   "text_variables": {}
