@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1866d80e-5f55-402a-bd05-60ea8bd3ca63")
-		(property "Sheetname" "Motor"
+		(property "Sheetname" "Motor1-2"
 			(at 326.39 151.6884 0)
 			(effects
 				(font
@@ -127,6 +127,90 @@
 			(project "ESC"
 				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -91.44 225.425)
+		(size 179.07 100.33)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "813962f8-20d0-46f1-8459-4e5f9182a1d5")
+		(property "Sheetname" "Motor3-4"
+			(at -91.44 224.7134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor2.kicad_sch"
+			(at -91.44 326.3396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC"
+				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.685 240.665)
+		(size 177.165 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9287c597-25fc-47ff-b94d-a5e3c46bcfcb")
+		(property "Sheetname" "Connectors"
+			(at 146.685 239.9534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 146.685 319.9896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC"
+				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3"
+					(page "5")
 				)
 			)
 		)

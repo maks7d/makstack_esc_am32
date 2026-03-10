@@ -423,7 +423,15 @@
     ],
     [
       "1866d80e-5f55-402a-bd05-60ea8bd3ca63",
-      "Motor"
+      "Motor1-2"
+    ],
+    [
+      "9287c597-25fc-47ff-b94d-a5e3c46bcfcb",
+      "Connectors"
+    ],
+    [
+      "813962f8-20d0-46f1-8459-4e5f9182a1d5",
+      "Motor3-4"
     ]
   ],
   "text_variables": {}
