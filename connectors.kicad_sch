@@ -830,6 +830,16 @@
 		)
 		(uuid "155e0921-055b-4f29-8a2d-843e9c525d79")
 	)
+	(wire
+		(pts
+			(xy 33.02 41.91) (xy 33.02 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "306b5df7-369c-4eb6-a83b-74b34117c7f2")
+	)
 	(polyline
 		(pts
 			(xy 145.415 13.335) (xy 145.415 69.215)
@@ -892,6 +902,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 74.93) (xy 33.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d655c5-1c7b-4e20-b349-d4662cdcea86")
+	)
+	(wire
+		(pts
 			(xy 160.02 39.37) (xy 162.56 39.37)
 		)
 		(stroke
@@ -929,6 +949,16 @@
 			(type default)
 		)
 		(uuid "82ddabd0-8e48-4314-8f7e-ded73609bddd")
+	)
+	(wire
+		(pts
+			(xy 46.99 74.93) (xy 46.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cfdfa9-42d6-45fe-bfbf-d865d6efb1fd")
 	)
 	(wire
 		(pts
@@ -982,6 +1012,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 58.42) (xy 46.99 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38005c0-b8c2-43b5-a4ed-7bfe18ceff0d")
+	)
+	(wire
+		(pts
 			(xy 185.42 46.99) (xy 187.96 46.99)
 		)
 		(stroke
@@ -1032,6 +1072,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 58.42) (xy 33.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f389aca0-ff15-4d2f-a58e-537e430ad55e")
+	)
+	(wire
+		(pts
 			(xy 33.02 24.13) (xy 33.02 25.4)
 		)
 		(stroke
@@ -1039,6 +1089,16 @@
 			(type default)
 		)
 		(uuid "f8a87b37-289b-46b1-b061-4cdc830217da")
+	)
+	(wire
+		(pts
+			(xy 46.99 41.91) (xy 46.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7869c1-6621-4899-b39c-0266f00d4c8b")
 	)
 	(global_label "RC_INPUT1"
 		(shape input)
@@ -1062,7 +1122,7 @@
 			)
 		)
 	)
-	(global_label "SWCLK"
+	(global_label "SWCLK1"
 		(shape input)
 		(at 33.02 25.4 270)
 		(fields_autoplaced yes)
@@ -1074,7 +1134,29 @@
 		)
 		(uuid "27372d7e-98b5-48af-8ba1-12d15201a52f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.02 34.6142 90)
+			(at 33.02 35.8237 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO2"
+		(shape input)
+		(at 46.99 43.18 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30283ec4-0003-4210-b2c6-ba0aa04541ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 53.2409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1188,7 @@
 			)
 		)
 	)
-	(global_label "SWDIO"
+	(global_label "SWDIO1"
 		(shape input)
 		(at 46.99 25.4 270)
 		(fields_autoplaced yes)
@@ -1118,7 +1200,29 @@
 		)
 		(uuid "51cba366-3f6c-4865-924e-0d276e8f4ccd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 34.2514 90)
+			(at 46.99 35.4609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO4"
+		(shape input)
+		(at 46.99 76.2 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a627fe2a-5fd3-42ab-b846-19ee99b59a03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 86.2609 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,6 +1250,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO3"
+		(shape input)
+		(at 46.99 59.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba921581-b8d4-454c-b87d-7392a5b871b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 69.7509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1194,6 +1320,72 @@
 			)
 		)
 	)
+	(global_label "SWCLK3"
+		(shape input)
+		(at 33.02 59.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1f2a129-c949-4d5d-b5ad-b461d7e4b8f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 70.1137 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWCLK4"
+		(shape input)
+		(at 33.02 76.2 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea125fc7-b062-4632-adf8-5b3eef9c7203")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 86.6237 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWCLK2"
+		(shape input)
+		(at 33.02 43.18 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec07710e-bfa8-4826-8295-97a19f7ec28e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 53.6037 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RC_INPUT2"
 		(shape input)
 		(at 187.96 39.37 0)
@@ -1218,10 +1410,77 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 33.02 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d1de4fc-39a0-4f74-8ce5-351f9203be56")
+		(property "Reference" "TP1"
+			(at 35.56 37.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 35.56 39.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbe5fa50-77fc-4c14-a530-456e605125fe")
+		)
+		(instances
+			(project "ESC"
+				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 72.39 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1244,7 +1503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 77.47 24.13 0)
 			(effects
 				(font
@@ -1284,11 +1543,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ceece43-5d13-4144-a878-fc290476a402")
+		(property "Reference" "TP9"
+			(at 35.56 53.8479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 35.56 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "105bf3aa-48fc-4fff-8ded-0003ba43d715")
+		)
+		(instances
+			(project "ESC"
+				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 247.65 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1311,7 +1637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -1355,7 +1681,7 @@
 		(at 46.99 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1378,7 +1704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 52.07 24.13 0)
 			(effects
 				(font
@@ -1632,7 +1958,7 @@
 		(at 33.02 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1655,7 +1981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 38.1 24.13 0)
 			(effects
 				(font
@@ -1696,10 +2022,77 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 33.02 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dfebe76-21e7-4fd4-95f9-7a0bcf3c5237")
+		(property "Reference" "TP11"
+			(at 35.56 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 35.56 72.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 38.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa0f8f61-a789-4ada-93e1-c38c6960f6fe")
+		)
+		(instances
+			(project "ESC"
+				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 99.06 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1722,7 +2115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 104.14 24.13 0)
 			(effects
 				(font
@@ -1766,7 +2159,7 @@
 		(at 247.65 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1789,7 +2182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 247.65 40.64 0)
 			(effects
 				(font
@@ -1896,10 +2289,77 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 46.99 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afe2755e-5f10-49b8-bb01-be75cc286a84")
+		(property "Reference" "TP12"
+			(at 49.53 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 49.53 72.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0afc6630-9419-4236-9865-d2d492136027")
+		)
+		(instances
+			(project "ESC"
+				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 85.09 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1922,7 +2382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 90.17 24.13 0)
 			(effects
 				(font
@@ -1956,6 +2416,73 @@
 			(project "ESC"
 				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 46.99 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d56ae4d9-0a3b-4442-8d3a-738dff960648")
+		(property "Reference" "TP10"
+			(at 49.53 53.8479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 49.53 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 52.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 46.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "724d7b9c-8cba-4088-948e-3bdea6dd98d6")
+		)
+		(instances
+			(project "ESC"
+				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -2095,10 +2622,77 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 46.99 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd0183d-9179-4561-9d7a-f028d114f8d9")
+		(property "Reference" "TP8"
+			(at 49.53 37.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 49.53 39.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 52.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 46.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "139d33d1-7d2c-42cb-bf0d-7b5aab76ae2e")
+		)
+		(instances
+			(project "ESC"
+				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 59.69 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2121,7 +2715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 64.77 24.13 0)
 			(effects
 				(font

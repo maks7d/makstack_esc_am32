@@ -6021,7 +6021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 52.578 175.26 90)
 			(effects
 				(font
@@ -6088,7 +6088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.56 28.448 90)
 			(effects
 				(font
@@ -6157,7 +6157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 28.9052 134.62 0)
 			(effects
 				(font
@@ -6226,7 +6226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.01 117.1448 0)
 			(effects
 				(font
@@ -6293,7 +6293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 143.51 130.048 90)
 			(effects
 				(font
@@ -6364,7 +6364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 158.75 110.49 0)
 			(effects
 				(font
@@ -6501,7 +6501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 88.9 37.1348 0)
 			(effects
 				(font
@@ -6571,7 +6571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 262.89 24.13 0)
 			(effects
 				(font
@@ -6645,7 +6645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 115.57 110.49 0)
 			(effects
 				(font
@@ -6715,7 +6715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 75.438 165.1 90)
 			(effects
 				(font
@@ -6786,7 +6786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 115.57 125.73 0)
 			(effects
 				(font
@@ -6860,7 +6860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 200.66 125.73 0)
 			(effects
 				(font
@@ -6930,7 +6930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 168.402 90)
 			(effects
 				(font
@@ -6997,7 +6997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 121.158 67.31 90)
 			(effects
 				(font
@@ -7064,7 +7064,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 144.018 67.31 90)
 			(effects
 				(font
@@ -7135,7 +7135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 177.8 24.13 0)
 			(effects
 				(font
@@ -7205,7 +7205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 121.158 77.47 90)
 			(effects
 				(font
@@ -7274,7 +7274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.01 109.5248 0)
 			(effects
 				(font
@@ -7345,7 +7345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 220.98 39.37 0)
 			(effects
 				(font
@@ -7549,7 +7549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 220.98 24.13 0)
 			(effects
 				(font
@@ -7686,7 +7686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.01 124.7648 0)
 			(effects
 				(font
@@ -7930,7 +7930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 262.89 39.37 0)
 			(effects
 				(font
@@ -8000,7 +8000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.74 28.448 90)
 			(effects
 				(font
@@ -8132,7 +8132,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 52.578 165.1 90)
 			(effects
 				(font
@@ -8179,7 +8179,7 @@
 		(at 162.56 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8202,7 +8202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 162.56 120.65 0)
 			(effects
 				(font
@@ -8266,7 +8266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 70.612 90)
 			(effects
 				(font
@@ -8333,7 +8333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 185.42 130.048 90)
 			(effects
 				(font
@@ -8400,7 +8400,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.56 43.688 90)
 			(effects
 				(font
@@ -8447,7 +8447,7 @@
 		(at 266.7 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8470,7 +8470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 266.7 34.29 0)
 			(effects
 				(font
@@ -8534,7 +8534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 147.32 70.612 90)
 			(effects
 				(font
@@ -8601,7 +8601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 98.298 67.31 90)
 			(effects
 				(font
@@ -8668,7 +8668,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 144.018 77.47 90)
 			(effects
 				(font
@@ -8735,7 +8735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 75.438 175.26 90)
 			(effects
 				(font
@@ -8806,7 +8806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 158.75 125.73 0)
 			(effects
 				(font
@@ -8878,7 +8878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 88.9 29.5148 0)
 			(effects
 				(font
@@ -8945,7 +8945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 98.298 77.47 90)
 			(effects
 				(font
@@ -9012,7 +9012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 98.298 175.26 90)
 			(effects
 				(font
@@ -9079,7 +9079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 168.402 90)
 			(effects
 				(font
@@ -9150,7 +9150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 177.8 39.37 0)
 			(effects
 				(font
@@ -9220,7 +9220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 98.298 165.1 90)
 			(effects
 				(font
@@ -9267,7 +9267,7 @@
 		(at 119.38 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9290,7 +9290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 119.38 120.65 0)
 			(effects
 				(font
@@ -9527,7 +9527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.46 70.612 90)
 			(effects
 				(font
@@ -9594,7 +9594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 114.808 90)
 			(effects
 				(font
@@ -9641,7 +9641,7 @@
 		(at 224.79 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9664,7 +9664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 224.79 34.29 0)
 			(effects
 				(font
@@ -9708,7 +9708,7 @@
 		(at 181.61 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9731,7 +9731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 181.61 34.29 0)
 			(effects
 				(font
@@ -9862,7 +9862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.5252 46.99 0)
 			(effects
 				(font
@@ -9909,7 +9909,7 @@
 		(at 204.47 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9932,7 +9932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 204.47 120.65 0)
 			(effects
 				(font
@@ -9996,7 +9996,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 130.048 90)
 			(effects
 				(font
@@ -10065,7 +10065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 88.9 21.8948 0)
 			(effects
 				(font
@@ -10197,7 +10197,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.74 43.688 90)
 			(effects
 				(font
@@ -10267,7 +10267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESCs:TRANS_NTMFS5C628NLT1G"
 			(at 200.66 110.49 0)
 			(effects
 				(font
@@ -10337,7 +10337,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 247.65 43.688 90)
 			(effects
 				(font
@@ -10404,7 +10404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.74 168.402 90)
 			(effects
 				(font
@@ -10471,7 +10471,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 143.51 114.808 90)
 			(effects
 				(font
@@ -10538,7 +10538,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 247.65 28.448 90)
 			(effects
 				(font
@@ -10605,7 +10605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 185.42 114.808 90)
 			(effects
 				(font
