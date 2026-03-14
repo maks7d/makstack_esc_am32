@@ -822,7 +822,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 35.56) (xy 236.22 33.02)
+			(xy 240.03 35.56) (xy 240.03 33.02)
 		)
 		(stroke
 			(width 0)
@@ -922,7 +922,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 35.56) (xy 236.22 35.56)
+			(xy 242.57 35.56) (xy 240.03 35.56)
 		)
 		(stroke
 			(width 0)
@@ -932,7 +932,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 40.64) (xy 236.22 40.64)
+			(xy 242.57 40.64) (xy 240.03 40.64)
 		)
 		(stroke
 			(width 0)
@@ -942,7 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 40.64) (xy 236.22 43.18)
+			(xy 240.03 40.64) (xy 240.03 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1477,73 +1477,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 72.39 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b23cdb1-f34a-4345-995d-1421bfba9ec1")
-		(property "Reference" "TP5"
-			(at 74.93 19.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 74.93 22.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 77.47 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 72.39 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c362b99-99f7-4d78-ab0b-930d8ce59a38")
-		)
-		(instances
-			(project "ESC"
-				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 33.02 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1637,7 +1570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -1889,7 +1822,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 236.22 33.02 0)
+		(at 240.03 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1898,7 +1831,7 @@
 		(fields_autoplaced yes)
 		(uuid "6609b5d8-fa74-4093-9028-569ad71d9fb8")
 		(property "Reference" "#PWR07"
-			(at 236.22 36.83 0)
+			(at 240.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +1840,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 236.22 27.94 0)
+			(at 240.03 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +1848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 33.02 0)
+			(at 240.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +1857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 33.02 0)
+			(at 240.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 236.22 33.02 0)
+			(at 240.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,73 +2021,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 99.06 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bfb8f2f-ef1a-468f-9efd-703545181d59")
-		(property "Reference" "TP7"
-			(at 101.6 19.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 101.6 22.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 104.14 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 99.06 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c249024-c5b1-4e20-a60d-ff1d55840f34")
-		)
-		(instances
-			(project "ESC"
-				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 247.65 40.64 0)
 		(unit 1)
@@ -2182,7 +2048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 247.65 40.64 0)
 			(effects
 				(font
@@ -2356,73 +2222,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 85.09 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4e3956b-d283-4ad9-943a-6d4d423a59f3")
-		(property "Reference" "TP6"
-			(at 87.63 19.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 87.63 22.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 90.17 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 85.09 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f552df5b-948d-4a3a-a6f4-5f4c9c0996ac")
-		)
-		(instances
-			(project "ESC"
-				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 46.99 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2490,7 +2289,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 43.18 0)
+		(at 240.03 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2499,7 +2298,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4341ac5-7977-4e5f-b210-f2c087127cef")
 		(property "Reference" "#PWR040"
-			(at 236.22 49.53 0)
+			(at 240.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 48.26 0)
+			(at 240.03 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 43.18 0)
+			(at 240.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 43.18 0)
+			(at 240.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 43.18 0)
+			(at 240.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,73 +2481,6 @@
 			(project "ESC"
 				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
 					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 59.69 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6869932-c73c-42ba-a0ad-3531e0ea870d")
-		(property "Reference" "TP4"
-			(at 62.23 19.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 62.23 22.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 64.77 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75ea46d3-7c04-41a2-a4a7-de81ba4cffd7")
-		)
-		(instances
-			(project "ESC"
-				(path "/81793efc-c8d5-4d57-9eff-0bf8558a7ae3/9287c597-25fc-47ff-b94d-a5e3c46bcfcb"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
